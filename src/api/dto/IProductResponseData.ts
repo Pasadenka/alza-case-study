@@ -1,0 +1,33 @@
+export default interface IProductResponseData {
+    id: number;
+    code: string;
+    img: string;
+    name: string;
+    spec: string;
+    price: string;
+    cprice: string;
+    priceWithoutVat: string;
+    avail: string;
+    avail_postfix: string;
+    availLegend: string;
+    avail_postfix2: string;
+    avail_color: string;
+    is_action: boolean;
+    action_name: string;
+    rating: number;
+    promo_cnt: number;
+    promos: [];
+    order: number;
+    is_special_service: boolean;
+    type: number;
+    itemType: string;
+    url: string;
+    minimumAmount: number;
+    amountInPack: number;
+    start_time: Date;
+    end_time: Date;
+    variant_type: number;
+    advertising: string;
+    categoryName: string;
+    inBasket: number;
+}
