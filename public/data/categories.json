@@ -1,0 +1,107 @@
+{
+    "err": 0,
+    "msg": null,
+    "name": "Notebooky",
+    "data": [
+        {
+            "img": "https://cdn.alza.cz/Foto/category/120/18891299.png",
+            "name": "Windows 11 kompatibilní",
+            "url": "https://www.alza.cz/notebooky-kompatibilni-s-windows-11/18891299.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/120/18843464_1.png",
+            "name": "Běžné užití",
+            "url": "https://www.alza.cz/notebooky/dle-vyuziti/domacnost-a-kancelar/18843464.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18848814_4.png",
+            "name": "Herní",
+            "url": "https://www.alza.cz/herni-notebooky/18848814.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18853299_5.png",
+            "name": "Pracovní",
+            "url": "https://www.alza.cz/pracovni-notebooky/18853299.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18854758_5.png",
+            "name": "MacBook",
+            "url": "https://www.alza.cz/macbook/18854758.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865374_8.png",
+            "name": "Lenovo",
+            "url": "https://www.alza.cz/notebooky-lenovo/18865374.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865376_3.png",
+            "name": "HP",
+            "url": "https://www.alza.cz/notebooky-hp/18865376.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865373_2.png",
+            "name": "Dell",
+            "url": "https://www.alza.cz/notebooky-dell/18865373.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865375_4.png",
+            "name": "Acer",
+            "url": "https://www.alza.cz/notebooky-acer/18865375.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865377_2.png",
+            "name": "Asus",
+            "url": "https://www.alza.cz/notebooky-asus/18865377.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18885660.png",
+            "name": "Gigabyte",
+            "url": "https://www.alza.cz/notebooky-gigabyte/18885660.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18861358_2.png",
+            "name": "Microsoft Surface",
+            "url": "https://www.alza.cz/microsoft-surface/18861358.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18867583_3.png",
+            "name": "MSI",
+            "url": "https://www.alza.cz/notebooky-msi/18867583.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18885688.png",
+            "name": "Intel EVO",
+            "url": "https://www.alza.cz/notebooky-intel-evo/18885688.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18881310.png",
+            "name": "Počítače do škol",
+            "url": "https://www.alza.cz/pocitace-do-skol/18881310.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865412_1.png",
+            "name": "Dle OS",
+            "url": "https://www.alza.cz/notebooky-podle-operacniho-systemu/18865412.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18865411_2.png",
+            "name": "Dle úhlopříčky",
+            "url": "https://www.alza.cz/notebooky-dle-uhlopricky/18865411.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18885987_1.png",
+            "name": "Pronájem notebooků",
+            "url": "https://www.alza.cz/notebooky/produkty-k-pronajmu/18842920-e15.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18884921.png",
+            "name": "Akční B2B ceny",
+            "url": "https://www.alza.cz/akcni-b2b-ceny/18842920-e7.htm"
+        },
+        {
+            "img": "https://cdn.alza.cz/Foto/category/40/18862746.png",
+            "name": "Příslušenství",
+            "url": "https://www.alza.cz/prislusenstvi-k-notebookum/18843112.htm"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "err": 0,
+    "msg": null,
+    "data": [
+        {
+            "name": "Top",
+            "value": 0
+        },
+        {
+            "name": "Nejprodávanější",
+            "value": 3
+        },
+        {
+            "name": "Nejdražší",
+            "value": 2
+        },
+        {
+            "name": "Nejlevnější",
+            "value": 1
+        }
+    ]
+}
