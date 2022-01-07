@@ -1,0 +1,10 @@
+.rating {
+    width: fit-content;
+    background-clip: text;
+    -webkit-text-stroke: 1px var(--color-yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-text-stroke: 1px var(--color-yellow);
+}
