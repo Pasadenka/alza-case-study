@@ -1,0 +1,73 @@
+.buy-button>.button-group {
+    border: var(--secondary-color-green-dark) 1px solid;
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.buy-button button {
+    background: var(--secondary-color-green-light);
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 3px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.buy-button button:hover {
+    background-color: var(--secondary-color-green-dark);
+    transition: background-color .3s;
+}
+
+.buy-button button:first-child {
+    border-right: var(--secondary-color-green-dark) 1px solid;
+}
+
+.buy-button>.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 2px;
+    margin-left: -60px;
+    margin-top: 1px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255,255,255,.5);
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+}
+
+.buy-button>.menu a {
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    transition: .2s;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.buy-button>.menu a:hover {
+    color: var(--main-color);
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.buy-button>.menu.hidden {
+    display: none;
+}
+
+.buy-button>.menu>.fo {
+    background-image: url(https://cdn.alza.cz/Styles/full/images/fastforward-1.png);
+}
+
+.buy-button>.menu>.fvrt {
+    background-image: url(https://cdn.alza.cz/Styles/full/images/srdce.png);
+}
+
+.buy-button>.menu>.cmpr {
+    background-image: url(https://cdn.alza.cz/Styles/full/images/porovnani.png);
+}
+
+.buy-button>.menu>.watchdog {
+    background-image: url(https://cdn.alza.cz/Styles/full/images/sprites/bo-menu-18.png?v=1);
+    background-position: 0px -1097px;
+}
