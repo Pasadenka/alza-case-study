@@ -14,7 +14,7 @@ For development run on static data
 For development run on alza endpoint
 ```shell
     npm run start-alza
-	//There is env variable REACT_APP_ALZA_MODE=true
+//There is env variable REACT_APP_ALZA_MODE=true
 ```
 For build on static data press
 ```shell
@@ -23,5 +23,5 @@ For build on static data press
 For build on alza endpoint press
 ```shell
     npm run build-alza
-	//There is env variable REACT_APP_ALZA_MODE=true
+//There is env variable REACT_APP_ALZA_MODE=true
 ```
