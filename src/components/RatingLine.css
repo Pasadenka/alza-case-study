@@ -1,0 +1,25 @@
+.rating-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.rating-line>.actions {
+    display: flex;
+    color: var(--color-grey);
+    font-size: 1.2rem;
+}
+
+.rating-line>.actions div {
+    margin-left: .6rem;
+    cursor: pointer;
+}
+
+.rating-line>.actions>.compare:hover {
+    color: var(--color-blue);
+}
+
+.rating-line>.actions>.favorites:hover {
+    color: var(--color-red);
+}
