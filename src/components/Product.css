@@ -1,0 +1,101 @@
+.product {
+    font-size: 0.75rem;
+    flex-basis: 100%;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(0deg,#f5f5f5 0,#fff 20px);
+    border-bottom: 1px solid #e8e8e8;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product>.top {
+    padding: 10px 15px 10px 15px;
+}
+
+.product>.top img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.product>.top a {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #F6A61F;
+    text-decoration: none;
+}
+
+.product>.bottom {
+    width: 100%;
+}
+
+.product>.bottom>.available {
+    text-align: center;
+    color: #398000;
+    font-weight: 900;
+    padding: 0px 15px 10px 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.product>.bottom>.available:hover {
+    text-decoration: underline;
+}
+
+.product>.bottom>.available div:first-child {
+    margin-bottom: .3rem;
+    height: 1.8rem;
+}
+
+.product>.bottom>.available .in-stock {
+    font-weight: 400;
+}
+
+.product>.bottom>.buy-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 10px 15px;
+    align-items: center;
+}
+
+.product>.bottom>.buy-box> div .price{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #F6A61F;
+}
+
+.product>.bottom>.buy-box> div .price-without-vat{
+    font-size: .7rem;
+}
+
+@media only screen and (min-width: 376px) {
+    .product {
+        border-right: 1px solid #e8e8e8;
+        background: linear-gradient(0deg,#f5f5f5 0,#fff 20px);
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+    .product {
+        flex-basis: calc(50% - 1px);
+    }
+}
+
+@media only screen and (min-width: 476px) and (max-width: 768px) {
+    .product {
+        flex-basis: calc(33.33333% - 1px);
+        max-width: calc(33.33333% - 1px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .product {
+        flex-basis: calc(25% - 1px);
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .product {
+        flex-basis: calc(20% - 1px);
+    }
+}
