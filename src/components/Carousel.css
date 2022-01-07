@@ -1,0 +1,130 @@
+.carousel>.container {
+    display: flex;
+    align-items: center;
+}
+
+.carousel>.container button {
+    width: 25px;
+    height: 70px;
+    border: 0;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.carousel>.container button:first-child {
+    border-radius: 13px 0px 0px 13px;
+}
+
+.carousel>.container button:last-child {
+    border-radius: 0px 13px 13px 0px;
+}
+
+.carousel>.container>.slider {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel>.container>.slider.cards-limit-4>.item {
+    width: 25%;
+    min-width: 25%;
+}
+
+.carousel>.container>.slider.cards-limit-3>.item {
+    width: 33.33333%;
+    min-width: 33.33333%;
+} 
+
+.carousel>.container>.slider.cards-limit-2>.item {
+    width: 50%;
+    min-width: 50%;
+} 
+
+.carousel>.container>.slider.cards-limit-1>.item {
+    width:100%;
+    min-width: 100%;
+}
+
+.carousel>.container>.slider>.item.p4-0 {
+    margin-left: -25%;
+}
+
+.carousel>.container>.slider>.item.p3-0 {
+    margin-left: -33.33333%;
+}
+
+.carousel>.container>.slider>.item.p2-0 {
+    margin-left: -50%;
+}
+
+@keyframes p4-left-animation {
+    from    { margin-left: -25%; }
+    to    { margin-left: 0%; }
+}
+
+.carousel>.container>.slider>.item.slide-p4-left {
+    animation: p4-left-animation  1s ease-out;
+}
+
+@keyframes p4-right-animation {
+    from    { margin-left: -25%; }
+    to    { margin-left: -50%; }
+}
+
+.carousel>.container>.slider>.item.slide-p4-right {
+    animation: p4-right-animation  1s ease-out;
+}
+
+@keyframes p3-left-animation {
+    from    { margin-left: -33.33333%; }
+    to    { margin-left: 0%; }
+}
+
+.carousel>.container>.slider>.item.slide-p3-left {
+    animation: p3-left-animation  1s ease-out;
+}
+
+@keyframes p3-right-animation {
+    from    { margin-left: -33.33333%; }
+    to    { margin-left: -66.66666%; }
+}
+
+.carousel>.container>.slider>.item.slide-p3-right {
+    animation: p3-right-animation  1s ease-out;
+}
+
+@keyframes p2-left-animation {
+    from    { margin-left: -50%; }
+    to    { margin-left: 0%; }
+}
+
+.carousel>.container>.slider>.item.slide-p2-left {
+    animation: p2-left-animation  1s ease-out;
+}
+
+@keyframes p2-right-animation {
+    from    { margin-left: -50%; }
+    to    { margin-left: -100%; }
+}
+
+.carousel>.container>.slider>.item.slide-p2-right {
+    animation: p2-right-animation  1s ease-out;
+}
+
+@keyframes p1-left-animation {
+    from    { margin-left: 0%; }
+    to    { margin-left: 100%; }
+}
+
+.carousel>.container>.slider>.item.slide-p1-left {
+    animation: p1-left-animation  1s ease-out;
+}
+
+@keyframes p1-right-animation {
+    from    { margin-left: 0%; }
+    to    { margin-left: -100%; }
+}
+
+.carousel>.container>.slider>.item.slide-p1-right {
+    animation: p1-right-animation  1s ease-out;
+}
