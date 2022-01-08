@@ -1,27 +1,27 @@
 # alza-case-study
 Alza case study homework
 
-Life page is on alzon [here.](http://alzon.blueminotaur.com/ "here.")
+Live page of case study is running on alzon [here.](http://alzon.blueminotaur.com/ "here.")
 
 Open project for development:
 ```shell
     npm i
 ```
-For development run on static data
+Start command with static data
 ```shell
     npm start
 ```
-For development run on alza endpoint
+Start command with alza endpoint
 ```shell
     npm run start-alza
-//There is env variable REACT_APP_ALZA_MODE=true
+	//There is env variable REACT_APP_ALZA_MODE=true
 ```
-For build on static data press
+Build command with static data
 ```shell
     npm run build
 ```
-For build on alza endpoint press
+Build command with alza endpoint
 ```shell
     npm run build-alza
-//There is env variable REACT_APP_ALZA_MODE=true
+	//There is env variable REACT_APP_ALZA_MODE=true
 ```
