@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <Loader show={!(!isLoadingCategories && !isLoadingCarousel && !isLoadingProducts)}/>
+      <Loader show={isLoadingCategories || isLoadingCarousel || isLoadingProducts}/>
       <ErrorModal show={isError} message={errorMsg} onClose={onErrorClose}/>
       <div className='header'>
         <img src={logo} width="20px" height="20px" alt='logo'/>
